@@ -1,2 +1,0 @@
-# cdn.NORIT
-CSS CDN
