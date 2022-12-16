@@ -1,1 +1,3 @@
-herheradnasdnjaskldjsladas
+env:
+  - DOC_SITE_NAME=${{values.name | dump}}
+import: finn/travis-techdocs:publish.yml@master
