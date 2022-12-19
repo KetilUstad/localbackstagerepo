@@ -1,0 +1,25 @@
+site_name: ${{values.name | dump}}
+site_description: ${{values.description | dump}}
+
+#[example setup and MkDocs documentation](https://www.mkdocs.org/user-guide/writing-your-docs/#file-layout:~:text=Navigation%20sub%2Dsections%20can%20be%20created%20by%20listing%20related%20pages%20together%20under%20a%20section%20title.%20For%20example%3A)
+# Navigation setup for left most collum of the docs
+#Example:
+# nav:
+#     - Home: 'index.md'
+#     - 'User Guide':
+#         - 'Writing your docs': 'writing-your-docs.md'
+#         - 'Styling your docs': 'styling-your-docs.md'
+#     - About:
+#         - 'License': 'license.md'
+#         - 'Release Notes': 'release-notes.md
+
+
+
+
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
+  #- kroki
